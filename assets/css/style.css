@@ -1,13 +1,16 @@
+/* universal selector element */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* body tag */
 body {
     background-color: #d9dcd6;
 }
 
+/* header tags */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +23,12 @@ header h1 {
     font-size: 48px;
 }
 
+/* adds the color of #d9dcd6 to .seo */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* the header nav */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,20 +37,24 @@ header nav {
     font-size: 20px;
 }
 
+/* unordered list in the header */
 header nav ul {
     list-style-type: none;
 }
 
+/* nav links */
 header nav li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* styling for each of the links in nav */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* styling for the hero class in section */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,12 +64,14 @@ a {
     background-position: center;
 }
 
+/*  styling for the content class*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* styling for the information_boxes tag */
 .information_boxes {
     margin-bottom: 20px;
     padding: 50px;
@@ -70,6 +81,7 @@ a {
     color: #ffffff;
 }
 
+/* styling for the information_boxes image */
 .information_boxes img {
     max-height: 200px;
 }
@@ -79,20 +91,24 @@ a {
     margin-right: 25px;
 }
 
+/* styling for the iformation_boxes h2 */
 .information_boxes h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* paragraph fonts for entire html */
 p {
     font-size: 16px;
 }
 
+/* styling for the information_boxes image */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* styling for the benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,6 +120,7 @@ p {
     background-color: #2589bd;
 }
 
+/* adds styling to the aside tags */
 aside {
     margin-bottom: 32px;
     color: #ffffff;
@@ -120,6 +137,7 @@ aside img {
     max-width: 150px;
 }
 
+/* gives styling to the footer */
 footer {
     padding: 30px;
     clear: both;
@@ -127,6 +145,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/* gives the h4 tag style */
+footer h4 {
     font-size: 20px;
 }
